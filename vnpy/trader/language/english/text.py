@@ -1,6 +1,7 @@
 # encoding: UTF-8
 
 SAVE_DATA = 'Save Data'
+RESIZE_COLUMNS = 'Resize Columns'
 
 CONTRACT_SYMBOL = 'Symbol'
 CONTRACT_NAME = 'Name'
@@ -59,10 +60,12 @@ PRICE_TICK = u'Price Tick'
 STRIKE_PRICE = u'Strike Price'
 UNDERLYING_SYMBOL = u'Underlying Symbol'
 OPTION_TYPE = u'Option Type'
+EXPIRY_DATE = u'Expiry Date'
 
 REFRESH = u'Refresh'
 SEARCH = u'Search'
 CONTRACT_SEARCH = u'Contract Search'
+
 
 
 BID_1 = u'Bid1'
@@ -105,6 +108,7 @@ TRADE = u'Fill'
 ORDER = u'Order'
 POSITION = u'Position'
 ACCOUNT = u'Account'
+WORKING_ORDER = u'Working Order'
 
 SYSTEM = u'System'
 CONNECT_DATABASE = u'Connect Database'
@@ -134,3 +138,4 @@ DATABASE_CONNECTING_FAILED = u'Failed to connect to MongoDB.'
 DATA_INSERT_FAILED = u'Data insert failed，please connect MongoDB first.'
 DATA_QUERY_FAILED = u'Data query failed, please connect MongoDB first.'
 DATA_UPDATE_FAILED = u'Data update failed, please connect MongoDB first.'
+DATA_DELETE_FAILED = u'Data delete failed, please connect MongoDB first.'

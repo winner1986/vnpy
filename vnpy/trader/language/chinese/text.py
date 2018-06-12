@@ -1,6 +1,7 @@
 # encoding: UTF-8
 
 SAVE_DATA = u'保存数据'
+RESIZE_COLUMNS = u'调整列宽'
 
 CONTRACT_SYMBOL = u'合约代码'
 CONTRACT_NAME = u'名称'
@@ -59,6 +60,7 @@ PRICE_TICK = u'最小价格变动'
 STRIKE_PRICE = u'行权价'
 UNDERLYING_SYMBOL = u'标的代码'
 OPTION_TYPE = u'期权类型'
+EXPIRY_DATE = u'到期日'
 
 REFRESH = u'刷新'
 SEARCH = u'查询'
@@ -105,6 +107,7 @@ TRADE = u'成交'
 ORDER = u'委托'
 POSITION = u'持仓'
 ACCOUNT = u'账户'
+WORKING_ORDER = u'可撤'
 
 SYSTEM = u'系统'
 CONNECT_DATABASE = u'连接数据库'
@@ -134,3 +137,4 @@ DATABASE_CONNECTING_FAILED = u'MongoDB连接失败'
 DATA_INSERT_FAILED = u'数据插入失败，MongoDB没有连接'
 DATA_QUERY_FAILED = u'数据查询失败，MongoDB没有连接'
 DATA_UPDATE_FAILED = u'数据更新失败，MongoDB没有连接'
+DATA_DELETE_FAILED = u'数据删除失败，MongoDB没有连接'
